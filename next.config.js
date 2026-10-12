@@ -1,4 +1,4 @@
-   const repo = "quran-learner";
+   const repo = "quran-learners";
    module.exports = {
      output: "export",
      images: { unoptimized: true },
