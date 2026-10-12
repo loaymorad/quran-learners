@@ -1,6 +1,7 @@
-   const repo = "quran-learners";
-   module.exports = {
-     output: "export",
-     images: { unoptimized: true },
-     basePath: process.env.NODE_ENV === "production" ? `/${repo}` : "",
-   };
+module.exports = {
+  output: "export",
+  images: { unoptimized: true },
+  basePath: "/quran-learners",
+  assetPrefix: "/quran-learners/",
+  trailingSlash: true,
+};
